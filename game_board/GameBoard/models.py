@@ -7,7 +7,18 @@ class Users(models.Model):
 
 
 class Category(models.Model):
-    pass
+    TYPE = (
+        ('tank', 'Танки'),
+        ('heal', 'Хилы'),
+        ('dd', 'ДД'),
+        ('buyers', 'Торговцы'),
+        ('gildemaster', 'Гилдмастеры'),
+        ('quest', 'Квестгиверы'),
+        ('smith', 'Кузнецы'),
+        ('tanner', 'Кожевники'),
+        ('potion', 'Зельевары'),
+        ('spillmaster', 'Мастера заклинаний'),
+    )
 
 
 class Article(models.Model):
