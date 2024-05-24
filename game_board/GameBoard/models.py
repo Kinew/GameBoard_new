@@ -33,6 +33,7 @@ class News(models.Model):
     category = models.ForeignKey('Category', on_delete=models.CASCADE)
     pass
 
+
 class Comment(models.Model):
     commentArticle = models.ForeignKey(Article, on_delete=models.CASCADE)
     commentUser = models.ForeignKey(User, on_delete=models.CASCADE)
