@@ -1,30 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d219621-54e1-4cba-b274-ae3ae25bfef3" name="Changes" comment="" />
+    <list default="true" id="3d219621-54e1-4cba-b274-ae3ae25bfef3" name="Changes" comment="the project update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_board/GameBoard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/GameBoard/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_board/game_board/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/game_board/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kinew&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kinew/GameBoard.git&quot;,
+    &quot;accountId&quot;: &quot;8438dc22-2f3f-409d-b1be-018456a46012&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2guECsWD8Z0j8JvOgamShJNoamv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Kirill\GameBoard\game_board" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +75,84 @@
       <option name="presentableId" value="Default" />
       <updated>1716538941208</updated>
     </task>
+    <task id="LOCAL-00001" summary="the project has been created">
+      <option name="closed" value="true" />
+      <created>1716540439304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716540439304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="the project has been created">
+      <option name="closed" value="true" />
+      <created>1716540456357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716540456357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="the project has been created">
+      <option name="closed" value="true" />
+      <created>1716543433847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716543433847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1716559510353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716559510353</updated>
+    </task>
+    <task id="LOCAL-00005" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1716559553917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716559553917</updated>
+    </task>
+    <task id="LOCAL-00006" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1716561814012</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716561814012</updated>
+    </task>
+    <task id="LOCAL-00007" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1716561943004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716561943004</updated>
+    </task>
+    <task id="LOCAL-00008" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1716564120524</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716564120524</updated>
+    </task>
+    <task id="LOCAL-00009" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1716564184995</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716564184995</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the project has been created" />
+    <MESSAGE value="the project update" />
+    <option name="LAST_COMMIT_MESSAGE" value="the project update" />
   </component>
 </project>

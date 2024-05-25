@@ -80,6 +80,9 @@ TEMPLATES = [
 WSGI_APPLICATION = 'game_board.wsgi.application'
 
 
+AUTH_USER_MODEL = 'GameBoard.User'
+
+
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
