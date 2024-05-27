@@ -24,7 +24,7 @@ class Category(models.Model):
     )
     category = models.CharField(max_length=12, choices=TYPE, default='tank')
     name = models.CharField(max_length=50)
-    subscribers = models.ManyToManyField(User, through='Subscriber')
+    subscribers = models.ManyToManyField(User, through='Subscription')
 
     def __str__(self):
         return self.name
