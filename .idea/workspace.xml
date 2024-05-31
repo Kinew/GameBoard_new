@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d219621-54e1-4cba-b274-ae3ae25bfef3" name="Changes" comment="the project update">
-      <change afterPath="$PROJECT_DIR$/game_board/GameBoard/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_board/GameBoard/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_board/templates/post_create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_board/GameBoard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/GameBoard/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_board/GameBoard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/GameBoard/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_board/game_board/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/game_board/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_board/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/templates/flatpages/default.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716824321815</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1717101215008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717101215008</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

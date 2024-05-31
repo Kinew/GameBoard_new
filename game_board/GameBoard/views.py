@@ -1,18 +1,21 @@
 from django.shortcuts import render
-from django.views.generic import ListView
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import ListView, CreateView
 from .models import Post
+from .forms import PostForms
 
 class PostList(ListView):
-    # Указываем модель, объекты которой мы будем выводить
     model = Post
-    # Поле, которое будет использоваться для сортировки объектов
-    ordering = 'name'
-    # Указываем имя шаблона, в котором будут все инструкции о том,
-    # как именно пользователю должны быть показаны наши объекты
+    ordering = '-dateCreations'
     template_name = 'Post.html'
-    # Это имя списка, в котором будут лежать все объекты.
-    # Его надо указать, чтобы обратиться к списку объектов в html-шаблоне.
     context_object_name = 'post'
 
 
-# Create your views here.
+class PostCreate(LoginRequiredMixin, CreateView):
+    raise_exception = True
+    form_class = PostForms
+    model = Post
+    template_name = 'post_create.html'
+    context_object_name = 'create'
+
+
