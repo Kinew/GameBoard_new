@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.views.generic import ListView, CreateView, CommentView
+from django.views.generic import ListView, CreateView
 from .models import *
 from .forms import PostForms, CommentForms
 
@@ -19,7 +19,7 @@ class PostCreate(LoginRequiredMixin, CreateView):
     context_object_name = 'create'
 
 
-class Comment(LoginRequiredMixin, CommentView):
+class Comment(LoginRequiredMixin, CreateView):
     model = Comment
     form_class = CommentForms
     ordering = '-dateCreations'
