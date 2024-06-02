@@ -21,5 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('pages/', include('django.contrib.flatpages.urls')),
     path('post/', include('GameBoard.urls')),
-    path('post/create/', include('post_create.urls')),
 ]
