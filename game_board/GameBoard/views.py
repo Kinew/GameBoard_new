@@ -21,7 +21,7 @@ class PostCreate(LoginRequiredMixin, CreateView):
 
 class Comment(LoginRequiredMixin, CommentView):
     model = Comment
-    form_class = PostForms
+    form_class = CommentForms
     ordering = '-dateCreations'
     template_name = 'comment.html'
     context_object_name = 'comment'
