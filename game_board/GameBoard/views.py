@@ -20,8 +20,9 @@ class PostCreate(LoginRequiredMixin, CreateView):
 
 
 class Comment(LoginRequiredMixin, CreateView):
-    model = Comment
+    raise_exception = True
     form_class = CommentForms
+    model = Comment
     ordering = '-dateCreations'
     template_name = 'comment.html'
     context_object_name = 'comment'
