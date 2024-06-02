@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import ListView, CreateView, CommentView
 from .models import *
-from .forms import PostForms
+from .forms import PostForms, CommentForms
 
 class PostList(ListView):
     model = Post
