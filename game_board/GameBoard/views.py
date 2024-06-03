@@ -55,3 +55,13 @@ class CommentDetail(LoginRequiredMixin, DetailView):
     context_object_name = 'comments'
 
 
+class CommentUpdate(LoginRequiredMixin, UpdateView):
+    form_class = CommentForms
+    model = Comment
+    template_name = 'comment_edit.html'
+
+
+class CommentDelete(LoginRequiredMixin, DeleteView):
+    model = Comment
+    template_name = 'comment_delete.html'
+    success_url = reverse_lazy('post_list')
