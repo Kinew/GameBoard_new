@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+
+<!-- Название у нас будет products -->
+{% block title %}
+Comment
+{% endblock title %}
+
+<!-- В контенте на странице мы выводим все товары -->
+{% block content %}
+<h2>Комментарии: {{post.title}}</h2>
+<h3>{{ comments.text }}</h3>
+{% endblock content %}
