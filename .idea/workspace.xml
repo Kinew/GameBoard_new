@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d219621-54e1-4cba-b274-ae3ae25bfef3" name="Changes" comment="the project update">
-      <change afterPath="$PROJECT_DIR$/game_board/templates/account/account_inactive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_board/GameBoard/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/GameBoard/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_board/game_board/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_board/game_board/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="3d219621-54e1-4cba-b274-ae3ae25bfef3" name="Changes" comment="the project update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717697982198</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="the project update">
+      <option name="closed" value="true" />
+      <created>1717705657311</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717705657311</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
