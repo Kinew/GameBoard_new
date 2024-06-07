@@ -82,7 +82,7 @@ class ConfirmUser(UpdateView):
             return redirect('account_login')
 
 
-class ProfileView(LoginRequiredMixin, templateView):
+class ProfileView(LoginRequiredMixin, UpdateView):
     template_name = 'users/profile.html'
 
 
