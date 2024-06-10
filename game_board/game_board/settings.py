@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.flatpages',
     'ckeditor',
     'ckeditor_uploader',
-    'fpages',
     'GameBoard',
 
     'allauth',
