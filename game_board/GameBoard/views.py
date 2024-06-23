@@ -86,3 +86,7 @@ class ProfileView(LoginRequiredMixin, UpdateView):
     template_name = 'users/profile.html'
 
 
+class CommentResponse(ResponseView):
+    model = Comment
+    template_name = 'comment_response.html'
+    context_object_name = 'response'
