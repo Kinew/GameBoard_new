@@ -33,4 +33,3 @@ class CommonSignupForms(SignupForm):
             recipient_list=[user.email],
         )
         return user
-

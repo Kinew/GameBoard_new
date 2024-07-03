@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
-from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView, ResponseView
+from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
 from .models import *
 from .forms import PostForms, CommentForms
 
@@ -86,7 +86,7 @@ class ProfileView(LoginRequiredMixin, UpdateView):
     template_name = 'users/profile.html'
 
 
-class CommentResponse(ResponseView):
+class CommentResponse(ListView):
     model = Comment
     template_name = 'comment_response.html'
     context_object_name = 'response'
